@@ -1,0 +1,37 @@
+{
+    "name": "iridium",
+    "displayName": "Iridium Theme",
+    "version": "1.0.0",
+    "publisher": "stillwwater",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stillwwater/vsc-iridium.git"
+    },
+    "bugs": {
+        "url": "https://github.com/stillwwater/vsc-iridium/issues"
+    },
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "galleryBanner": {
+        "color": "#1C1B19",
+        "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Iridium Warm",
+                "uiTheme": "vs-dark",
+                "path": "./themes/iridium-warm.json"
+            },
+            {
+                "label": "Iridium Cold",
+                "uiTheme": "vs-dark",
+                "path": "./themes/iridium-cold.json"
+            }
+        ]
+    }
+}
